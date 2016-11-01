@@ -8,7 +8,7 @@
 
 #import "ViewController.h"
 #import "AVView.h"
-
+#import "AVSuperView.h"
 
 @interface ViewController ()
 @end
@@ -17,7 +17,8 @@
 
 - (void)loadView
 {
-    self.view = [[AVView alloc] init];
+//    self.view = [[AVView alloc] init];
+    self.view = [[AVSuperView alloc] init];
 }
 
 - (void)viewDidLoad {

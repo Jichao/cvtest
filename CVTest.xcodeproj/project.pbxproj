@@ -14,6 +14,8 @@
 		9F938B391DC8349E009C68BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F938B371DC8349E009C68BC /* LaunchScreen.storyboard */; };
 		9F938B451DC83753009C68BC /* AVCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F938B441DC83753009C68BC /* AVCell.m */; };
 		9F938B481DC87A08009C68BC /* AVView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F938B471DC87A08009C68BC /* AVView.m */; };
+		9F938B4B1DC885F6009C68BC /* AVSuperView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F938B4A1DC885F6009C68BC /* AVSuperView.m */; };
+		9F938B4E1DC88618009C68BC /* AVLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F938B4D1DC88618009C68BC /* AVLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,10 @@
 		9F938B441DC83753009C68BC /* AVCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVCell.m; sourceTree = "<group>"; };
 		9F938B461DC87A08009C68BC /* AVView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVView.h; sourceTree = "<group>"; };
 		9F938B471DC87A08009C68BC /* AVView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVView.m; sourceTree = "<group>"; };
+		9F938B491DC885F6009C68BC /* AVSuperView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVSuperView.h; sourceTree = "<group>"; };
+		9F938B4A1DC885F6009C68BC /* AVSuperView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVSuperView.m; sourceTree = "<group>"; };
+		9F938B4C1DC88618009C68BC /* AVLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVLayout.h; sourceTree = "<group>"; };
+		9F938B4D1DC88618009C68BC /* AVLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +80,10 @@
 				9F938B441DC83753009C68BC /* AVCell.m */,
 				9F938B461DC87A08009C68BC /* AVView.h */,
 				9F938B471DC87A08009C68BC /* AVView.m */,
+				9F938B491DC885F6009C68BC /* AVSuperView.h */,
+				9F938B4A1DC885F6009C68BC /* AVSuperView.m */,
+				9F938B4C1DC88618009C68BC /* AVLayout.h */,
+				9F938B4D1DC88618009C68BC /* AVLayout.m */,
 			);
 			path = CVTest;
 			sourceTree = "<group>";
@@ -159,8 +169,10 @@
 				9F938B311DC8349E009C68BC /* ViewController.m in Sources */,
 				9F938B2E1DC8349E009C68BC /* AppDelegate.m in Sources */,
 				9F938B451DC83753009C68BC /* AVCell.m in Sources */,
+				9F938B4B1DC885F6009C68BC /* AVSuperView.m in Sources */,
 				9F938B2B1DC8349E009C68BC /* main.m in Sources */,
 				9F938B481DC87A08009C68BC /* AVView.m in Sources */,
+				9F938B4E1DC88618009C68BC /* AVLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
