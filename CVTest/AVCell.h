@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface AVCell : UICollectionViewCell
-
+@property (nonatomic, assign) int index;
 @end
